@@ -1,4 +1,5 @@
 // src/App.jsx
+@import WeatherForecast from './components/WeatherForecast/WeatherForecast.jsx';
 
 // Separating the array from the function for better readability, better organization, & easier maintainability
 const weatherForecasts = [
