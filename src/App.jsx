@@ -1,14 +1,6 @@
 // src/App.jsx
 
-const App = () => {
-
-  return (
-    <h1>Hello world!</h1>
-  );
-}
-
-export default App
-
+// Separating the array from the function for better readability, better organization, & easier maintainability
 const weatherForecasts = [
   {
     day: 'Mon',
@@ -46,3 +38,16 @@ const weatherForecasts = [
     time: 'Night',
   },
 ];
+
+
+const App = () => {
+
+  return (
+    <h1>Hello world!</h1>
+  );
+}
+
+export default App;
+
+
+
