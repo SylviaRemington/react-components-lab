@@ -45,8 +45,30 @@ const App = () => {
     <>
       <h1>Local Weather</h1>
       <section>
-        <WeatherForecast day='Mon' time='Night' conditions='stormy' imgAlt='sun icon' img='https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-components-lab/assets/day.svg'
-       />
+
+        {/* One Version of the map array method:
+        {weatherForecasts.map((weatherForecast, index) => (
+          <WeatherForecast
+            key={index}
+            day={weatherForecast.day}
+            img={weatherForecast.img}
+            imgAlt={weatherForecast.imgAlt}
+            conditions={weatherForecast.conditions}
+            time={weatherForecast.time}
+          /> */}
+
+        {/* Second Version below of the map array method that is more dynamic & future-proofs it. */}
+        {
+          weatherForecasts.map((weatherForecast, index) => (
+            <WeatherForecast
+              key={index}
+              weatherForecast={weatherForecast}
+            />
+
+          ))
+        };
+        {/* <WeatherForecast day='Mon' time='Night' conditions='stormy' imgAlt='sun icon' img='https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-components-lab/assets/day.svg'
+       /> */}
       </section>
     </>
 
