@@ -25,5 +25,8 @@ If you are developing a production application, we recommend using TypeScript wi
 
 In this lab, you will create a user-friendly React application that displays a 5-day weather forecast. You’ll implement a dynamic, component-based structure and practice the core concept of passing data using props in React.
 
-### Set Up via General Assembly Lab Lesson
+### Set Up via General Assembly Lab Information
+- https://generalassembly.instructure.com/courses/720/assignments/16380?module_item_id=62932
+
+### Exercise via General Assembly Lab Information
 - https://generalassembly.instructure.com/courses/720/assignments/16380?module_item_id=62932
