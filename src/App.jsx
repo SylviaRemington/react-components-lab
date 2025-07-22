@@ -1,40 +1,40 @@
 import './App.css';
 import WeatherForecast from './components/WeatherForecast/WeatherForecast.jsx';
-import WeatherSupahstarInfo from './components/WeatherSupahstarInfo/WeatherSupahstarInfo.jsx'
+// import WeatherSupahstarInfo from './components/WeatherSupahstarInfo/WeatherSupahstarInfo.jsx'
 
 const App = () => {
   // function App {
   const weatherForecasts = [
     {
-      day: 'Mon',
+      day: 'Monday',
       img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-components-lab/assets/day.svg',
       imgAlt: 'sun icon',
       conditions: 'sunny',
       time: 'Morning',
     },
     {
-      day: 'Tue',
+      day: 'Tuesday',
       img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-components-lab/assets/night.svg',
       imgAlt: 'moon icon',
       conditions: 'clear',
       time: 'Night',
     },
     {
-      day: 'Wed',
+      day: 'Wednesday',
       img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-components-lab/assets/stormy.svg',
       imgAlt: 'clouds with lightning icon',
       conditions: 'stormy',
       time: 'All Day',
     },
     {
-      day: 'Thu',
+      day: 'Thursday',
       img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-components-lab/assets/cloudy-day.svg',
       imgAlt: 'sun overcast by clouds icon',
       conditions: 'overcast',
       time: 'Evening',
     },
     {
-      day: 'Fri',
+      day: 'Friday',
       img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-components-lab/assets/cloudy-night.svg',
       imgAlt: 'moon overcast by clouds icon',
       conditions: 'cloudy',
@@ -68,6 +68,8 @@ const App = () => {
 
           ))
         }
+
+        {/* <WeatherSupahstarInfo/> */}
 
       </section>
     </>
