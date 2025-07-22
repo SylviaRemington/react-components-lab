@@ -23,5 +23,5 @@ If you are developing a production application, we recommend using TypeScript wi
 ### Solution UI
 ![Solution UI](./public/ReactvilleFinalBrowserSolution.png)
 
-- In this lab, you will create a user-friendly React application that displays a 5-day weather forecast. You’ll implement a dynamic, component-based structure and practice the core concept of passing data using props in React.
+In this lab, you will create a user-friendly React application that displays a 5-day weather forecast. You’ll implement a dynamic, component-based structure and practice the core concept of passing data using props in React.
 
