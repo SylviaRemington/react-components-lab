@@ -1,4 +1,4 @@
-@import './WeatherForecast.css'
+import './WeatherForecast.css'
 
 const WeatherForecast = () => {
     return (
