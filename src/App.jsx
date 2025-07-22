@@ -1,5 +1,5 @@
 // src/App.jsx
-@import WeatherForecast from './components/WeatherForecast/WeatherForecast.jsx';
+import WeatherForecast from './components/WeatherForecast/WeatherForecast.jsx';
 
 const App = () => {
   // function App {
