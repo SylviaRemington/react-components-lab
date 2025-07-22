@@ -43,6 +43,7 @@ const App = () => {
   ];
 
   return (
+
     <>
       <h1>Local Weather</h1>
 
@@ -60,25 +61,18 @@ const App = () => {
           /> */}
 
         {/* Second Version below of the map array method that is more dynamic & future-proofs it. */}
-        {
-          weatherForecasts.map((weatherForecast, index) => (
-            <WeatherForecast
-              key={index}
-              weatherForecast={weatherForecast}
-            />
-          ))
-        }
+        {weatherForecasts.map((weatherForecast, index) => (
+          <WeatherForecast key={index} weatherForecast={weatherForecast} />
+        ))}
 
+        {/* Playing around with a totally different component (not a part of the lesson) but commented out & will create stuff with it later. */}
         {/* <WeatherSupahstarInfo/> */}
-        
-      </section>
-    </>
 
+      </section>
+
+    </>
 
   );
 };
 
 export default App;
-
-
-
