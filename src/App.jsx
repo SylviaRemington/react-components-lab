@@ -45,6 +45,7 @@ const App = () => {
   return (
     <>
       <h1>Local Weather</h1>
+
       <section>
 
         {/* One Version of the map array method:
@@ -65,12 +66,11 @@ const App = () => {
               key={index}
               weatherForecast={weatherForecast}
             />
-
           ))
         }
 
         {/* <WeatherSupahstarInfo/> */}
-
+        
       </section>
     </>
 
