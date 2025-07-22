@@ -45,7 +45,8 @@ const App = () => {
     <>
       <h1>Local Weather</h1>
       <section>
-        <WeatherForecast />
+        <WeatherForecast day='Mon' time='Night' conditions='stormy' imgAlt='sun icon' img='https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-components-lab/assets/day.svg'
+       />
       </section>
     </>
 
