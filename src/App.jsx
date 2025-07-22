@@ -44,6 +44,8 @@ function App {
   return (
     <>
       <h1>Local Weather</h1>
+      {/* playing around with stuff below with .day */}
+      <p>{weatherForecasts.day}</p>
       <section>
         <WeatherForecast />
       </section>
