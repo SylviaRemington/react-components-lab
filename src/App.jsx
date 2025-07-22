@@ -1,8 +1,8 @@
 // src/App.jsx
 // @import WeatherForecast from './components/WeatherForecast/WeatherForecast.jsx';
 
-
-function App {
+const App = () => {
+// function App {
   const weatherForecasts = [
     {
       day: 'Mon',
