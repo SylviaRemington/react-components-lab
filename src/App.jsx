@@ -45,6 +45,7 @@ function App {
     <>
       <h1>Local Weather</h1>
       {/* playing around with stuff below with .day */}
+      {/* Would actually need to use map method to iterate through array */}
       <p>{weatherForecasts.day}</p>
       <section>
         <WeatherForecast />
