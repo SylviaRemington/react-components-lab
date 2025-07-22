@@ -2,7 +2,7 @@
 // @import WeatherForecast from './components/WeatherForecast/WeatherForecast.jsx';
 
 const App = () => {
-// function App {
+  // function App {
   const weatherForecasts = [
     {
       day: 'Mon',
@@ -43,15 +43,12 @@ const App = () => {
 
   return (
     <>
-      <h1>Hello World!</h1>
-      <h2>Local Weather</h2>
-      {/* playing around with stuff below with .day */}
-      {/* Would actually need to use map method to iterate through array */}
-      {/* <p>{weatherForecasts.day}</p>
+      <h1>Local Weather</h1>
       <section>
-        <WeatherForecast />
-      </section> */}
+      // Weather data here
+      </section>
     </>
+
 
   );
 };
