@@ -1,5 +1,6 @@
 import './App.css';
 import WeatherForecast from './components/WeatherForecast/WeatherForecast.jsx';
+import WeatherSupahstarInfo from './components/WeatherSupahstarInfo/WeatherSupahstarInfo.jsx'
 
 const App = () => {
   // function App {
@@ -66,9 +67,8 @@ const App = () => {
             />
 
           ))
-        };
-        {/* <WeatherForecast day='Mon' time='Night' conditions='stormy' imgAlt='sun icon' img='https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-components-lab/assets/day.svg'
-       /> */}
+        }
+
       </section>
     </>
 
