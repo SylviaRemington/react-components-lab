@@ -20,13 +20,13 @@ If you are developing a production application, we recommend using TypeScript wi
 
 - Reactville Weather Station is at the heart of the town, keeping everyone informed about the ever-changing weather. They’re in need of a tech upgrade and have called on you to develop their new 5-Day Weather Forecast App.
 
+- In this lab, you will create a user-friendly React application that displays a 5-day weather forecast. You’ll implement a dynamic, component-based structure and practice the core concept of passing data using props in React.
+
 ### Solution UI
 ![Solution UI](./public/ReactvilleFinalBrowserSolution.png)
 
 ### My Outcome UI
 ![My Outcome UI](./public/Outcome_UI_after_I_completed_the_exercise.png)
-
-In this lab, you will create a user-friendly React application that displays a 5-day weather forecast. You’ll implement a dynamic, component-based structure and practice the core concept of passing data using props in React.
 
 ### Set Up via General Assembly Lab Information
 - https://generalassembly.instructure.com/courses/720/assignments/16380?module_item_id=62932
